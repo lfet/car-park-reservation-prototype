@@ -1,2 +1,3 @@
-# car-park-reservation-prototype
-Using Arduino Due/ Bluetooth Shield/ Python/ Flask/ Bootstrap to prototype a Car Park Reservation System
+# Prototyping a Car Park Reservation System
+
+Using Arduino Due/ Bluetooth Shield/ Python/ Flask/ Bootstrap.
