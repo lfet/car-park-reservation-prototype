@@ -14,6 +14,7 @@ Sensors: Temperature - for temperature around Intercom, Motion - to detect unsta
 
 ### Example 1
 USER: Opens web site GUI to Home page
+
 GUI: Navbar at top allows user to go to: Home, Connect, Admin Login ( Shown on every page). Home - Displays all Car Parks, their max capacity, availability, price per hour and address. Grabbing these values from the PGSQL Database.
 USER: Select Connect page.
 GUI: Shows form: Entering or Leaving?, Select Car Park and Enter username.
