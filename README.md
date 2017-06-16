@@ -16,32 +16,51 @@ Sensors: Temperature - for temperature around Intercom, Motion - to detect unsta
 USER: Opens web site GUI to Home page
 
 GUI: Navbar at top allows user to go to: Home, Connect, Admin Login ( Shown on every page). Home - Displays all Car Parks, their max capacity, availability, price per hour and address. Grabbing these values from the PGSQL Database.
+
 USER: Select Connect page.
+
 GUI: Shows form: Entering or Leaving?, Select Car Park and Enter username.
+
 USER: Entering, Car Park 1, lfet.
+
 GUI: Calls procedure to connect to Car Park 1 intercom (Arduino), if succesfull requests to enter user in car park. Intercom returns confirmation of time entering.
+
 GUI: Displays confirmation and time entering (User: lfet entered at H: 12 M: 34).
 
+--- 2 Hours Later ---
+
 USER: Opens web site GUI to Home page
+
 GUI: Displays home page
+
 USER: Select Connect page.
+
 GUI: Shows form: Entering or Leaving?, Select Car Park and Enter username.
+
 USER: Leaving, Car Park 1, lfet.
+
 GUI: Calls procedure to connect to Car Park 1 intercom (Arduino), if succesfull requests to leave user from car park. Intercom returns confirmation and total time spent occupying car park.
+
 GUI: Displays reciept by getting price per hour from DB and time spent from Arduino. (User: lfet stayed in Car Park 1 for H: 2 M: 30. Cost $12)
 
 ### Example 2
 
 ADMIN: Opens web sit GUI to Home Page
+
 GUI: Displays home page.
+
 Admin: Select Admin Login.
+
 GUI: Shows login form for Admin.
+
 Admin: Username: dmit, Password: 000
+
 GUI: Shows information for all Car Parks including state of sensors, Battery Level, Temperature and Motion.
 
 ### Example 3
 
 Temperature sensor detects overheating at Intercom
+
 LCD: Displays warning on LCD so Admin can easily check at the Car Park
 
 ## Installation
