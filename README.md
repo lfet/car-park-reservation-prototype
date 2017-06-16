@@ -75,6 +75,14 @@ User Application
 - All modules as in file structure
 - Bootstrap
 
+## Motivation
+
+For our University of Sydney, Embedded Systems Project. To understand and be able to implement a working prototype of an embedded system.
+
+## Contributers
+
+Dylan Mitri and Luke Fetin
+
 ## Licence
 
 GNU and MitriFetin Licence. See LICENCE files.
